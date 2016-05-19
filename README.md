@@ -1,4 +1,4 @@
-###		serverFramework creator		###
+###		serverFramework based server creator		###
 
 
 * How to use
