@@ -7,6 +7,6 @@
 
   * 2 cd ssChatServer
 
-  * 3 ./build
+  * 3 ./build.sh
 
   * 4 ./ssChatServer
