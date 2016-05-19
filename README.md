@@ -3,10 +3,10 @@
 
 * How to use
 *
-ssDaemon new ssChatServer
+  ssDaemon new ssChatServer
 
-cd ssChatServer
+  cd ssChatServer
 
-./build
+  ./build
 
-./ssChatServer
+  ./ssChatServer
