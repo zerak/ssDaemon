@@ -91,11 +91,11 @@ func main() {
 		}
 	}
 
-	fmt.Fprintf(os.Stderr, "bee: unknown subcommand %q\nRun 'bee help' for usage.\n", args[0])
+	fmt.Fprintf(os.Stderr, "ssDaemon: unknown subcommand %q\nRun 'ssDaemon help' for usage.\n", args[0])
 	os.Exit(2)
 }
 
-var usageTemplate = `Bee is a tool for managing beego framework.
+var usageTemplate = `ssDaemon is a tool for creat server that based on serverFramework.
 
 Usage:
 
@@ -143,8 +143,8 @@ func help(args []string) {
 		return
 	}
 	if len(args) != 1 {
-		fmt.Fprintf(os.Stdout, "usage: bee help command\n\nToo many arguments given.\n")
-		os.Exit(2) // failed at 'bee help'
+		fmt.Fprintf(os.Stdout, "usage: ssDaemon help command\n\nToo many arguments given.\n")
+		os.Exit(2) // failed at 'ssDaemon help'
 	}
 
 	arg := args[0]
@@ -157,6 +157,6 @@ func help(args []string) {
 		}
 	}
 
-	fmt.Fprintf(os.Stdout, "Unknown help topic %#q.  Run 'bee help'.\n", arg)
-	os.Exit(2) // failed at 'bee help cmd'
+	fmt.Fprintf(os.Stdout, "Unknown help topic %#q.  Run 'ssDaemon help'.\n", arg)
+	os.Exit(2) // failed at 'ssDaemon help cmd'
 }
